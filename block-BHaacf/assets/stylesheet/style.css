@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom Styles Start Here */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--secondary);
+}
+a {
+    text-decoration: none;
+}
+.orange {
+    color: var(--primary);
+}
+.blue {
+    color: #0d92ff;
+}
+.wavy {
+    width: 30px;
+    margin: 10px 0px;
+}
+/* Variables */
+:root {
+    --primary:#f7593e;
+    --secondary:#232F38;
+}
+
+/* Containers */
+.container-60 {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-40 {
+    flex: 0 1 40%;
+}
+.flex-48 {
+    flex: 0 2 48%;
+}
+.flex-60 {
+    flex: 0 1 60%;
+}
+/* Buttons */
+.btn {
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 10px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+/* headings */
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Text */
+.text-10 {
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.text-gray {
+    color: gray;
+}
+
+/* Header Styles */
+.header {
+    padding: 20px 0px;
+    background: rgba(106, 115, 131, 0.5);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.header a {
+    color: white;
+}
+.header strong {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* Main Styles */
+/* Hero Section */
+.hero {
+    position: relative;
+}
+.hero video {
+    width: 100%;
+    z-index: -1;
+}
+.hero .overlay {
+    background-color: rgba(47, 47, 56, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.hero .heading {
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+.hero .heading b {
+    font-size: 14px;
+    font-weight: 900;
+}
+/* Programs Section */
+.programs {
+    padding: 100px 0px;
+}
+.programs .heading {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.programs .courses img {
+    width: 75px;
+    margin-right: 20px;
+}
+.programs .courses .orange {
+    font-size: 10px;
+}
+.programs .courses .flex-48 {
+    margin-top: 50px;
+}
+/* CTA */
+.cta {
+    background:url(../media/cta-bg.jpg);
+     padding: 100px 0px;
+     color: white;
+     text-align: center;
+}
+.cta p {
+    width: 50%;
+    margin: 20px auto;
+}
+.cta button {
+    margin: 0 auto;
+}
+/* Classes */
+.classes {
+    padding: 100px 0px;
+}
+.classes .heading {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
