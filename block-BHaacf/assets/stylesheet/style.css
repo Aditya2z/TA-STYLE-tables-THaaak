@@ -128,6 +128,10 @@ a {
     box-shadow: none;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* headings */
@@ -222,6 +226,9 @@ h5 {
 .programs .courses img {
     width: 75px;
     margin-right: 20px;
+}
+.programs .courses p {
+    margin: 5px 0px;
 }
 .programs .courses .orange {
     font-size: 10px;
