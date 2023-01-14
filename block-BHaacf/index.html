@@ -1,0 +1,374 @@
+<!-- - Create a layout according to the design shown below.
+
+![Table Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/table/ex-1.png)
+
+- Attach the video provided in the background of hero section.
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+
+- Do not forget to checkout the preview video, before working on the assignment. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Table-1</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container-60 flex">
+            <div class="brand-name flex-40">
+                <a href="#">
+                    <strong>TRAINING
+                        <span class="orange">STUDIO</span>
+                    </strong>
+                </a>
+            </div>
+            <nav class="flex-60">
+                <ul class="flex flex-between">
+                    <li>
+                        <a href="#" class="text-10 active">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-10">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-10">CLASSES</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-10">SCHEDULES</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-10">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn text-10">SIGN UP</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Headcer End -->
+
+    <!-- Main Start -->
+    <main>
+        <!-- Hero -->
+        <section class="hero flex flex-column align-center justify-center">
+            <video autoplay muted loop>
+                <source src="./assets/media/gym-video.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="heading">
+                <b>WORK HARDER, GET STRONGER</b>
+                <h1>EASY WITH OUR <span class="orange">GYM</span> </h1>
+                <button class="btn text-10">
+                BECOME A MEMBER
+                </button>
+            </div>
+        </section>
+        <!-- Programs -->
+        <section class="programs">
+            <div class="container-60">
+                <div class="heading">
+                    <h3>
+                        CHOOSE 
+                        <span class="orange">PROGRAM</span>
+                    </h3>
+                    <figure>
+                        <img src="./assets/media/line-dec.png" alt="wavy lines icon"  class="wavy">
+                    </figure>
+                    <p class="text-10 text-gray ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt esse? Ea nemo numquam id ut est harum placeat.</p>
+                </div>
+                <div class="courses flex justify-between flex-wrap">
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>Basic Fitness</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>Advanced Fitness Course</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit <span class="blue">amet consectetur </span> adipisicing <span class="blue">elit </span>. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>New Gym Training</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>Yoga Training</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>Basic Fitness Muscle</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit amet <span class="blue">consectetur</span> adipisicing elit. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                    <div class="flex flex-48">
+                        <figure>
+                            <img src="./assets/media/features-first-icon.png" alt="dumbell icon">
+                        </figure>
+                        <article>
+                            <h5>Body Building Fitness</h5>
+                            <p class="text-10 text-gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum voluptas.</p>
+                            <a href="#" class="orange">DISCOVER MORE</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call To Action -->
+        <section class="cta">
+            <h2>
+                DON'T 
+                <span class="orange">THINK</span>,
+                 BEGIN 
+                 <span class="orange">TODAY</span>! 
+            </h2>
+            <p class="text-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quos eius temporibus, iure nam incidunt laborum vero nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reprehenderit similique possimus. </p>
+            <button class="btn text-10">
+                BECOME A MEMBER
+            </button>
+        </section>
+        <!-- Classes -->
+        <section class="classes">
+            <div class="container-60">
+                <div class="heading">
+                    <h3>
+                        OUR 
+                        <span class="orange">CLASSES</span>
+                    </h3>
+                    <figure>
+                        <img src="./assets/media/line-dec.png" alt="wavy lines icon"  class="wavy">
+                    </figure>
+                    <p class="text-10 text-gray ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt esse? Ea nemo numquam id ut est harum placeat.</p>
+                </div>
+                <div class="classes-main flex flex-between">
+                    <aside class="flex-30">
+                        <div class="flex align-center">
+                            <figure>
+                                <img src="./assets/media/tabs-first-icon.png">
+                            </figure>
+                            <h5 class="orange">First Training Class</h5>
+                        </div>
+                        <div class="flex align-center">
+                            <figure>
+                                <img src="./assets/media/tabs-first-icon.png">
+                            </figure>
+                            <h5 class="orange">First Training Class</h5>
+                        </div>
+                        <div class="flex align-center">
+                            <figure>
+                                <img src="./assets/media/tabs-first-icon.png">
+                            </figure>
+                            <h5 class="orange">First Training Class</h5>
+                        </div>
+                        <div class="flex align-center">
+                            <figure>
+                                <img src="./assets/media/tabs-first-icon.png">
+                            </figure>
+                            <h5 class="orange">First Training Class</h5>
+                        </div>
+                        <button class="btn">
+                            View All Schedules
+                        </button>     
+                    </aside>
+                    <article class="flex-65">
+                        <figure>
+                            <img src="./assets/media/training-image-01.jpg">
+                        </figure>
+                        <h4>First Training Class</h4>
+                        <p class="text-10 text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ullam ad temporibus est esse reprehenderit iure similique vitae nulla! Deserunt placeat eum labore aliquam, exercitationem inventore assumenda ducimus sunt incidunt!</p>
+                        <button class="btn text-10">
+                            VIEW SCHEDULE
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Schedule -->
+        <section class="schedule">
+            <div class="container-60">
+                <div class="heading">
+                    <h3>
+                            CLASSES 
+                        <span class="orange">SCHEDULE</span>
+                    </h3>
+                    <figure>
+                        <img src="./assets/media/line-dec.png" alt="wavy lines icon"  class="wavy">
+                    </figure>
+                    <p class="text-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt esse? Ea nemo numquam id ut est harum placeat.</p>
+                </div>
+                <table>
+                    <caption>
+                        <span class="orange">Monday</span> / Tuesday / Wednesday / Thursday / Friday
+                    </caption>
+                    <tr>
+                        <th>Fitness Class</th>
+                        <td>10:00-11:30AM</td>
+                        <td></td>
+                        <td>William G. Stewart</td>
+                    </tr>
+                    <tr>
+                        <th>Muscles Training</th>
+                        <td></td>
+                        <td></td>
+                        <td>Paul Neuman</td>
+                    </tr>
+                    <tr>
+                        <th>Yoga Class</th>
+                        <td></td>
+                        <td>2:00-3:30PM</td>
+                        <td>Ashwani Goswami</td>
+                    </tr>
+                    <tr>
+                        <th>Body Building</th>
+                        <td></td>
+                        <td></td>
+                        <td>Brian Lara</td>
+                    </tr>
+                    <tr>
+                        <th>Advanced Class</th>
+                        <td></td>
+                        <td></td>
+                        <td>Hector D. Taigl</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!-- Experts -->
+        <section class="experts">
+            <div class="container-60">
+                <div class="heading">
+                    <h3>
+                            EXPERT 
+                        <span class="orange">TRAINERS</span>
+                    </h3>
+                    <figure>
+                        <img src="./assets/media/line-dec.png" alt="wavy lines icon"  class="wavy">
+                    </figure>
+                    <p class="text-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt esse? Ea nemo numquam id ut est harum placeat.</p>
+                </div>
+                <div class="experts-main flex flex-between">
+                    <article class="flex-22">
+                        <figure>
+                            <img src="./assets/media/first-trainer.jpg">
+                            <figcaption class="orange">Strength Trainer</figcaption>
+                        </figure>
+                        <h4>Bret D Bowers</h4>
+                        <p class="text-10 text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab porro tempore similique tenetur? Dicta magnam totam.
+                        </p>
+                        <div class="social flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </article>
+                    <article class="flex-22">
+                        <figure>
+                            <img src="./assets/media/second-trainer.jpg">
+                            <figcaption class="orange">Strength Trainer</figcaption>
+                        </figure>
+                        <h4>Hector D Tiagl</h4>
+                        <p class="text-10 text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab porro tempore similique tenetur? Dicta magnam totam.
+                        </p>
+                        <div class="social flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </article>
+                    <article class="flex-22">
+                        <figure>
+                            <img src="./assets/media/third-trainer.jpg">
+                            <figcaption class="orange">Strength Trainer</figcaption>
+                        </figure>
+                        <h4>Paul D Newman</h4>
+                        <p class="text-10 text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab porro tempore similique tenetur? Dicta magnam totam.
+                        </p>
+                        <div class="social flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </article>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact flex justify-between">
+            <figure class="flex-50">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881601.643201373!2d-44.56663468103723!3d-22.91325246902301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20State%20of%20Rio%20de%20Janeiro%2C%20Brazil!5e0!3m2!1sen!2sin!4v1673671480232!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+            <div class="form flex-50">
+                <form action="index.html" method="post">
+                    <fieldset>
+                        <div class="flex flex-between">
+                            <input type="text" placeholder="Your Name*" class="flex-45" required>
+                            <input type="email" placeholder="Your Email*" class="flex-45" required>
+                        </div>
+                        <input type="text" placeholder="Subject" class="subject">
+                        <textarea name="message" rows="10" placeholder="Message"></textarea>
+                        <input type="submit" disabled value="SEND MESSAGE" class="btn text-10">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer -->
+    <footer>
+        <small class="text-10">
+            Copyright &copy; 2020 Training Studio-Designed by <span class="orange">TemplateMo</span>
+        </small>
+    </footer>
+</body>
+</html>
